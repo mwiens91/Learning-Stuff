@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 #Made by Calvin Liu
 
 from tkinter import *
