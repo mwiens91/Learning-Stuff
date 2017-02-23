@@ -248,11 +248,13 @@ class Calculator:
 
         self.button_equal = ttk.Button(root, text="=", command=lambda: self.equal_button_press()).grid(row=5, column=3)
 
-# Get the root window object
-root = Tk()
+if __name__ == '__main__':
 
-# Create the calculator
-calc = Calculator(root)
+    # Get the root window object
+    root = Tk()
 
-# Run the app until exited
-root.mainloop()
+    # Create the calculator
+    calc = Calculator(root)
+
+    # Run the app until exited
+    root.mainloop()
