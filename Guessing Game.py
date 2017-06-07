@@ -8,12 +8,8 @@ while True:
 
     try:
         guess = int(input('Try and guess my secret number: '))
-
     except ValueError:
         print("You did not enter a number.")
-
-    except:
-        print("An unknown error has occurred.")
 
     if guess == secret_number:
         print("You got it correct!!!\nThere is no prize for this game though. ;)")
